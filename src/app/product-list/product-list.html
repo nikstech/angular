@@ -1,0 +1,14 @@
+<div class="ekart--product--container">
+    <app-search></app-search>
+    <img [src]="product.pImage"/>
+    <p>Name: {{ product.name }}</p>
+    <p>Price: {{ '$' + product.price }}</p>
+    <p>Color: {{product.color}}</p>
+    <p>Discounted Price: {{product.discountedPrice}}</p>
+    <p>{{product.inStock}}</p>
+    <button>-</button>
+    <span>{{ addToCart }}</span>
+    <button>+</button>
+</div>
+
+<!--Disabled, Hidden, Checked-->
