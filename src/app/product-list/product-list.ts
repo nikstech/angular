@@ -15,6 +15,6 @@ export class ProductList {
     color: "Silver",
     discountedPrice: 8.5,
     inStock: "Item left",
-    pImage: '/assets/images/iphone.png'
+    pImage: 'assets/images/iphone.png'
   }
 }
